@@ -1,0 +1,91 @@
+body {
+    font-family: Karla, sans-serif;
+    color: #484848;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+/* Add a background color to the header */
+header {
+    background-color: #FF5A5F;
+    height: 80px;
+}
+
+/* Set the height of the logo */
+#logo {
+    height: 80px;
+}
+
+/* Remove margin and padding from the body to eliminate the space on the edge of the page */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Align the navigation to the right and make the list items display inline */
+nav {
+    display: inline-block;
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+}
+
+/* Style the links */
+nav a,
+nav a:visited {
+    color: white;
+    font-size: 18px;
+    text-decoration: none; /* Remove underline */
+    cursor: pointer;
+}
+
+/* Add underline on hover */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Add margin between the list items */
+nav li {
+    margin-left: 40px;
+}
+
+/* Vertically center the text within list items */
+nav li {
+    line-height: 80px;
+}
+
+.content {
+    width: 900px;
+    margin: auto;
+}
+
+section {
+    padding: 20px;
+    border: 1px solid #cccccc;  
+    margin-bottom: 20px;
+}
+
+section img {
+    width: 400px;
+}
+
+h1 {
+    font-size: 36px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+section p {
+    font-size: 18px;
+}
